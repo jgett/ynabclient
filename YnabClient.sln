@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YnabClient", "YnabClient\YnabClient.csproj", "{05A22EEE-9AEB-4D58-AF2A-57B10E811BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YnabClient.Tests", "YnabClient.Tests\YnabClient.Tests.csproj", "{500CF000-74FA-411C-A202-0AB09B5800CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A22EEE-9AEB-4D58-AF2A-57B10E811BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A22EEE-9AEB-4D58-AF2A-57B10E811BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A22EEE-9AEB-4D58-AF2A-57B10E811BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A22EEE-9AEB-4D58-AF2A-57B10E811BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500CF000-74FA-411C-A202-0AB09B5800CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500CF000-74FA-411C-A202-0AB09B5800CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500CF000-74FA-411C-A202-0AB09B5800CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500CF000-74FA-411C-A202-0AB09B5800CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C092E1-06A8-4FFC-B3CB-CAE6F7B0E0A1}
+	EndGlobalSection
+EndGlobal
