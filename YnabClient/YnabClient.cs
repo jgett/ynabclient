@@ -15,10 +15,18 @@ namespace YnabClient
             _client.AddDefaultHeader("Authorization", $"Bearer {accessToken}");
         }
 
-        public YnabResponse<BudgetCollection> GetBudgets()
+        public YnabResponse<BudgetsData> GetBudgets()
         {
             var request = new RestRequest("budgets");
-            var response = _client.Execute<YnabResponse<BudgetCollection>>(request);
+            var response = _client.Execute<YnabResponse<BudgetsData>>(request);
+            return response.Data;
+        }
+
+        public YnabResponse<UserData> GetUser()
+        {
+            var request = new RestRequest("user");
+            var response = _client.Execute<YnabResponse<UserData>>(request);
+            Console.WriteLine(FormatJson(response.Content));
             return response.Data;
         }
 

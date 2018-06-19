@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace YnabClient
 {
-    public class BudgetCollection
+    public class BudgetsData
     {
         [JsonProperty("budgets")]
         public IEnumerable<Budget> Budgets { get; set; }
